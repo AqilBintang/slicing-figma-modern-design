@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Nav Start -->
+    <div class="navigation-container">
+        <div class="logo">Kosmetique</div>
+        <button>Learn More <i class="fa-solid fa-arrow-down"></i></button>
+        <div class="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <nav>
+            <ul>
+                <li><a href="#">Benefits</a></li>
+                <li><a href="#">Specifications</a></li>
+                <li><a href="#">How-to</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    <!-- Header nav end -->
+     
+    <!-- Hero section -->
+    <section class="hero-section" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+        <h1>Let's Go...</h1>
+        <div class="img-bg"></div>
+        <div class="img">
+            <img src="img/Innerscreen.png" alt="">
+        </div>
+    </section>
+    <section class="sponsor" id="sponsor" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+        <p>Trusted by:</p>
+        <div class="sponsor-item">
+            <img src="img/Logo.png" alt="logo1">
+            <img src="img/Logo-2.png" alt="logo2">
+            <img src="img/Logo3.jpg" alt="logo3">
+        </div>
+    </section>
+    <section class="benefit" id="benefit" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+        <h2>Benefits</h2>
+        <p>Will get new experience</p>
+        <p>Area provides real insights, without the data overload.</p>
+    </section>
+
+    <!-- AOS JS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <!-- Inisialisasi AOS -->
+      <script>
+        AOS.init({
+            duration: 800,
+            once: false,  // <- INI PENTING! Animasi akan trigger SETIAP KALI scroll
+            mirror: true, // Animasi juga saat scroll up
+            offset: 1
+        });
+    </script>
+</body>
+</html>
