@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +13,9 @@
 
     <!-- AOS CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header Nav Start -->
@@ -38,16 +40,17 @@
         <h1>Let's Go...</h1>
         <div class="img-bg"></div>
         <div class="img">
-            <img src="img/Innerscreen.png" alt="">
+            <img src="img/InnerscreenDekstop.png" alt="">
         </div>
     </section>
     <section class="sponsor" id="sponsor" data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
         <p>Trusted by:</p>
         <div class="sponsor-item">
-            <img src="img/Logo.png" alt="logo1">
-            <img src="img/Logo-2.png" alt="logo2">
-            <img src="img/Logo3.jpg" alt="logo3">
+            <img src="img/sponsor-item/Logo.png" alt="logo1">
+            <img src="img/sponsor-item/Logo-2.png" alt="logo2">
+            <img src="img/sponsor-item/Logo3.jpg" alt="logo3">
+            <img src="img/sponsor-item/Logo4.jpg" alt="logo3">
         </div>
     </section>
     <section class="benefit" id="benefit" data-aos="fade-up"
@@ -56,7 +59,48 @@
         <p>Will get new experience</p>
         <p>Area provides real insights, without the data overload.</p>
     </section>
+    <section class="things-container">
+        <div class="things-item">
+            <img src="img/icon/Vector.jpg" alt="">
+            <h3>Amplify Insights</h3>
+            <p>Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>
+        </div>
+        <div class="things-item">
+            <img src="img/icon/Vector.jpg" alt="">
+            <h3>Control Your Global Presence</h3>
+            <p>Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.</p>
+        </div>
+        <div class="things-item">
+            <img src="img/icon/Vector.jpg" alt="">
+            <h3>Remove Language Barriers</h3>
+            <p>Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.</p>
+        </div>
+        <div class="things-item">
+            <img src="img/icon/Vector.jpg" alt="">
+            <h3>Visualize Growth</h3>
+            <p>Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
+        </div>
+    </section>
+    <div class="img-banner">
+        <img src="img/Hero-Image-Dekstop.jpg" alt="">
+    </div>
 
+    <section class="feature-container">
+        <div class="feature-content">
+            <h1>See the Big Picture</h1>
+            <p>Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</p>
+
+            <p class="feature-content-counter">Spot Trends in Seconds: No more digging through numbers. </p>
+            <p class="feature-content-counter">Get Everyone on the Same Page: Share easy-to-understand reports with your team. </p>
+            <p class="feature-content-counter">Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</p>
+            <p class="feature-content-counter">Your Global Snapshot: Get a quick, clear overview of your entire operation.</p>
+
+            <button>Discover More</button>
+        </div>
+        <div class="product-img">
+            <img src="img/feautures/Features-carousel-dekstop.jpg" alt="feature">
+        </div>
+    </section>
     <!-- AOS JS -->
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -64,8 +108,8 @@
       <script>
         AOS.init({
             duration: 800,
-            once: false,  // <- INI PENTING! Animasi akan trigger SETIAP KALI scroll
-            mirror: true, // Animasi juga saat scroll up
+            once: false,  /* Animasi trigger, berapa kali animasi dijalankan*/
+            mirror: true, // Animasi saat scroll up
             offset: 1
         });
     </script>
