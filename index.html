@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area</title>
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- AOS CSS-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Reddit+Mono:wght@200..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- link CSS -->
+    
+    <!-- CSS Anda -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,7 +42,7 @@
         <h1>Let's Go...</h1>
         <div class="img-bg"></div>
         <div class="img">
-            <img src="img/InnerscreenDekstop.png" alt="">
+            <img src="img/hero-img/InnerscreenDekstop.png" alt="">
         </div>
     </section>
     <section class="sponsor" id="sponsor" data-aos="fade-up"
@@ -82,7 +84,7 @@
         </div>
     </section>
     <div class="img-banner">
-        <img src="img/Hero-Image-Dekstop.jpg" alt="">
+        <img src="img/Hero-Image-Dekstop.jpg" alt="HeroImg">
     </div>
 
     <section class="feature-container">
@@ -95,11 +97,60 @@
             <p class="feature-content-counter">Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</p>
             <p class="feature-content-counter">Your Global Snapshot: Get a quick, clear overview of your entire operation.</p>
 
-            <button>Discover More</button>
+            <button class="discover">Discover More</button>
         </div>
         <div class="product-img">
             <img src="img/feautures/Features-carousel-dekstop.jpg" alt="feature">
         </div>
+    </section>
+    <section class="reason-container">
+        <div class="why">
+            <div class="specs-label">Specs</div>
+            <h1>Why Choose Area</h1>
+            <p>You need a solution that keeps up. That's why we developed Area. A developer-friendly approach to streamline your business. </p>
+            <button class="discover">Discover More</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="area">Area</th>
+                    <th>WebSurge</th>
+                    <th>HyperView</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Ultra-fast browsing</td>
+                    <td><i class="fa-solid fa-check"></i>Fast browsing</td>
+                    <td><i class="fa-solid fa-x"></i>Moderate speeds</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Advanced AI insights</td>
+                    <td><i class="fa-solid fa-check"></i>Basic AI recommendations</td>
+                    <td><i class="fa-solid fa-x"></i>No AI assistance</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Seamless integration</td>
+                    <td><i class="fa-solid fa-check"></i>Restricts customization</td>
+                    <td><i class="fa-solid fa-x"></i>Steep learning curve</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Advanced AI insights</td>
+                    <td><i class="fa-solid fa-x"></i>Basic AI insights</td>
+                    <td><i class="fa-solid fa-x"></i>No AI assistance</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Ultra-fast browsing</td>
+                    <td><i class="fa-solid fa-check"></i>Fast browsing</td>
+                    <td><i class="fa-solid fa-x"></i>Moderate speeds</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-check"></i>Full UTF-8 support</td>
+                    <td><i class="fa-solid fa-x"></i>Potential display errors</td>
+                    <td><i class="fa-solid fa-x"></i>Partial UTF-8 support</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
     <!-- AOS JS -->
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
