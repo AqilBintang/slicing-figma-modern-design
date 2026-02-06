@@ -1,5 +1,5 @@
 "# slicing-figma-modern-design" 
-# 🎨 Kosmetique - Modern Cosmetic Website
+# 🎨 EyyoSlicing - Modern Website
 
 ![Eyyo Preview](img/preview.png)
 
@@ -54,7 +54,7 @@ A sleek, responsive website for a modern cosmetic brand built with HTML5, CSS3, 
 - **Accent**: Rethink Sans
 
 ### **Color Palette**
-css
+``css
 Primary:   #485C11      /* Brand green */
 Secondary: #DFECC6      /* Light mint */
 Text:      #000000      /* Black */
@@ -73,3 +73,4 @@ Accent:    #8E9C78      /* Muted green */
 git clone https://github.com/AqilBintang/slicing-figma-modern-design
 2. Navigate to project directory
 3. Open index.html in your browser or use a local server
+owser or use a local server
